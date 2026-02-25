@@ -4,13 +4,13 @@
 > Redefining How Humans Interact with Operating Systems
 
 ---
-<div align='center>
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-success)
 ![Architecture](https://img.shields.io/badge/Design-Modular-orange)
 ![Phase](https://img.shields.io/badge/Phase-Foundation%20Layer-purple)
 ![License](https://img.shields.io/badge/License-Custom-red)
-</div>
+
 ---
 
 ## 🚀 The Vision
