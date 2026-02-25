@@ -43,7 +43,7 @@ Open Chrome and search machine learning internships
 
 ### Output
 
-```json
+```
 {
   "intent": "browser_search",
   "entities": {
@@ -53,11 +53,11 @@ Open Chrome and search machine learning internships
   "confidence": 0.91,
   "timestamp": "2026-02-25T18:42:10",
   "raw_input": "Open Chrome and search machine learning internships"
-}
-
+} 
+```
 This structured output becomes the foundation for intelligent OS-level execution.
 
-🌍 Why This Matters
+## 🌍 Why This Matters
 
 Traditional systems require users to adapt to machines.
 
@@ -87,7 +87,7 @@ Multi-modal input integration (voice + vision)
 
 Fully autonomous decision layers
 
-🎯 Current Capabilities (Foundation Phase)
+## 🎯 Current Capabilities (Foundation Phase)
 
 Rule-based intent detection
 
@@ -115,7 +115,7 @@ restart
 
 More capabilities will be integrated in upcoming phases.
 
-⚙ Installation
+## ⚙ Installation
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/ai-command-engine.git
 cd ai-command-engine
@@ -135,7 +135,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ▶ Running the Engine
 python main.py
-🧪 Running Tests
+
+##🧪 Running Tests
+
 pytest
 🛣 Roadmap Toward AI-Native OS
 
@@ -154,7 +156,7 @@ LLM-powered contextual reasoning
 Phase 5 – Autonomous OS Core Integration
 Direct system-level execution and adaptive behavior
 
-🧠 Engineering Philosophy
+## 🧠 Engineering Philosophy
 
 Intelligence-first system design
 
@@ -168,12 +170,12 @@ Clean, production-oriented codebase
 
 This project is built not as a demo — but as a scalable AI systems research foundation.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Ahmad Shoaib Ansari
 BTech CSE (AI/ML)
 Builder of AI-Oriented-OS
 
-📜 License
+## 📜 License
 
 This project is licensed under the terms defined in the LICENSE file.
