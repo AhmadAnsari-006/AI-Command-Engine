@@ -1,0 +1,9 @@
+# Core dependencies
+python-dateutil==2.9.0
+
+# Testing (optional but recommended)
+pytest==8.0.0
+
+# Development tools (optional)
+black==24.1.0
+flake8==7.0.0

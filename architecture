@@ -1,0 +1,24 @@
+ai_command_engine/
+│
+├── main.py
+│
+├── core/
+│   ├── input_processor.py
+│   ├── normalizer.py
+│   ├── intent_detector.py
+│   ├── entity_extractor.py
+│   ├── confidence_engine.py
+│   └── command_builder.py
+│
+├── config/
+│   ├── intents.py
+│   ├── entities.py
+│   └── settings.py
+│
+├── models/
+│   └── command_schema.py
+│
+├── tests/
+│   └── test_cases.py
+│
+└── README.md
