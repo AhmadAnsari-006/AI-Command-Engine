@@ -1,83 +1,107 @@
-🧠 AI Command Understanding Engine (ACUE)
+# 🧠 AI Command Understanding Engine (ACUE)
 
-Core Cognitive Layer of AI-Oriented-OS
+> The Cognitive Core of AI-Oriented-OS  
+> Redefining How Humans Interact with Operating Systems
 
-AI Command Understanding Engine (ACUE) is the foundational intelligence module of AI-Oriented-OS, a next-generation AI-powered operating system.
+---
+<div align='center>
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Status](https://img.shields.io/badge/Status-Active%20Development-success)
+![Architecture](https://img.shields.io/badge/Design-Modular-orange)
+![Phase](https://img.shields.io/badge/Phase-Foundation%20Layer-purple)
+![License](https://img.shields.io/badge/License-Custom-red)
+</div>
+---
 
-This module converts natural human language into structured, machine-executable commands.
+## 🚀 The Vision
 
-🚀 Vision
+Modern operating systems rely on icons, menus, and fixed workflows.
 
-Traditional operating systems rely on buttons, icons, and fixed interfaces.
+**AI-Oriented-OS** aims to eliminate friction between human intention and machine execution.
 
-ACUE introduces:
+The **AI Command Understanding Engine (ACUE)** is the first step toward that future.
 
-Natural language interaction
+It transforms:
+
+Human Thought → Natural Language → Structured Intelligence → Executable System Actions
+
+This is not just a command parser.
+
+It is the beginning of an AI-native operating system.
+
+---
+
+## 🧩 What This Engine Does
+
+ACUE converts unstructured natural language into structured, machine-readable commands with confidence scoring.
+
+Example:
+
+### Input
+
+Open Chrome and search machine learning internships
+
+### Output
+
+```json
+{
+  "intent": "browser_search",
+  "entities": {
+    "app_name": "chrome",
+    "query": "machine learning internships"
+  },
+  "confidence": 0.91,
+  "timestamp": "2026-02-25T18:42:10",
+  "raw_input": "Open Chrome and search machine learning internships"
+}
+
+This structured output becomes the foundation for intelligent OS-level execution.
+
+🌍 Why This Matters
+
+Traditional systems require users to adapt to machines.
+
+AI-Oriented-OS reverses this.
+
+Machines adapt to humans.
+
+ACUE enables:
 
 Intent detection
 
-Entity extraction
+Context-aware parsing
 
-Structured command generation
+Command structuring
 
-Confidence scoring
+Scalable intelligence integration
 
-This is the decision engine that powers the AI-Oriented-OS architecture.
+Upgrade path from rule-based logic to ML & LLM-based semantic reasoning
 
-🏗 Architecture Overview
-User Input
-    ↓
-Input Processor
-    ↓
-Text Normalizer
-    ↓
-Intent Detection Engine
-    ↓
-Entity Extraction Engine (Phase 2)
-    ↓
-Confidence Scoring
-    ↓
-Structured Command Output (JSON)
-📦 Project Structure
-ai_command_engine/
-│
-├── main.py
-│
-├── core/
-│   ├── input_processor.py
-│   ├── normalizer.py
-│   ├── intent_detector.py
-│   ├── entity_extractor.py
-│   ├── confidence_engine.py
-│   └── command_builder.py
-│
-├── config/
-│   ├── intents.py
-│   ├── entities.py
-│   └── settings.py
-│
-├── models/
-│   └── command_schema.py
-│
-├── tests/
-│   └── test_cases.py
-│
-└── README.md
-🎯 Current Features (Week 1)
+This engine is designed to evolve into:
+
+ML-powered intent classifiers
+
+Contextual memory-based understanding
+
+Multi-modal input integration (voice + vision)
+
+Fully autonomous decision layers
+
+🎯 Current Capabilities (Foundation Phase)
 
 Rule-based intent detection
 
-Config-driven intent mapping
+Config-driven keyword mapping
 
 Input normalization
 
-Confidence scoring
+Confidence score calculation
 
-Structured JSON output
+Structured JSON command output
 
-Modular clean architecture
+Clean modular codebase
 
-🧠 Supported Intents (MVP)
+Supported intents:
 
 open_app
 
@@ -89,74 +113,67 @@ shutdown
 
 restart
 
-🔄 Example
-Input
-Launch VS Code
-Output
-{
-  "intent": "open_app",
-  "entities": {
-    "app_name": "vscode"
-  },
-  "confidence": 0.85,
-  "timestamp": "2026-02-25T18:42:10",
-  "raw_input": "Launch VS Code"
-}
+More capabilities will be integrated in upcoming phases.
+
 ⚙ Installation
+1️⃣ Clone the Repository
 git clone https://github.com/your-username/ai-command-engine.git
 cd ai-command-engine
+2️⃣ Create Virtual Environment
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+
+Activate environment:
+
+Windows
+
+venv\Scripts\activate
+
+Mac/Linux
+
+source venv/bin/activate
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 ▶ Running the Engine
 python main.py
 🧪 Running Tests
 pytest
-🛠 Design Principles
+🛣 Roadmap Toward AI-Native OS
 
-Single Responsibility per module
+Phase 1 – Foundation (Current)
+Rule-based intent understanding
 
-Config-driven intent definition
+Phase 2 – Entity Intelligence
+Advanced entity extraction engine
 
-Extensible architecture
+Phase 3 – Machine Learning Layer
+Intent classification using ML models
 
-Clean separation of logic
+Phase 4 – Semantic Intelligence
+LLM-powered contextual reasoning
 
-Production-ready folder structure
+Phase 5 – Autonomous OS Core Integration
+Direct system-level execution and adaptive behavior
 
-🗺 Roadmap
-Phase 1 (Current)
+🧠 Engineering Philosophy
 
-Rule-based intent detection
+Intelligence-first system design
 
-Phase 2
+Extensible modular architecture
 
-Entity extraction engine
+Config-driven behavior control
 
-Phase 3
+Upgrade-ready AI infrastructure
 
-ML-based intent classification (scikit-learn)
+Clean, production-oriented codebase
 
-Phase 4
-
-LLM-powered semantic parsing
-
-🎓 Learning Outcomes
-
-This project demonstrates:
-
-NLP fundamentals
-
-Intent classification logic
-
-Modular system architecture
-
-Confidence scoring design
-
-Clean engineering practices
+This project is built not as a demo — but as a scalable AI systems research foundation.
 
 👨‍💻 Author
 
 Ahmad Shoaib Ansari
 BTech CSE (AI/ML)
-AI-Oriented-OS Project
+Builder of AI-Oriented-OS
+
+📜 License
+
+This project is licensed under the terms defined in the LICENSE file.
